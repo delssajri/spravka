@@ -444,8 +444,8 @@ select {
 	margin: 0 auto;
 }
 
-/* @media (max-width: 660px) {
-	.container {
-		width: 320px;
+@media screen and (max-width: 660px) {
+	.head_contact .left {
+		display: none;
 	}
-} */
+}
