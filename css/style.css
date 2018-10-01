@@ -445,6 +445,10 @@ select {
 }
 
 @media screen and (max-width: 660px) {
+	.container {
+		width: 320px;
+	}
+
 	.head_contact .left,
 	.right .adr {
 		display: none;
