@@ -2,7 +2,6 @@ body, html { height: 100%; padding: 0; margin: 0; }
 
 body {
 	font: 14px 'Istok Web', Arial, sans-serif;
-	min-width: 1200px;
 }
 
 p {margin: 7px 0;}
@@ -71,9 +70,8 @@ select {
 }
 
 .inblock {
-	width: 1180px;
-	margin: 0 auto;
 	display: block;
+	margin: 0 auto;
 	padding: 10px;
 }
 
@@ -93,10 +91,10 @@ select {
 }
 
 #sname {
+	width: 315px;
 	color: #fefefe;
     display: table-cell;
     font: 25px Arial;
-    width: 315px;
     vertical-align: middle;
     text-transform: uppercase;
 }
@@ -111,11 +109,11 @@ select {
 }
 
 #topslog {
+	width: 315px;
 	color: #ffffff;
     text-align: right;
     font: 14px Arial;
     display: table-cell;
-    width: 315px;
     vertical-align: middle;
 }
 
@@ -169,7 +167,7 @@ select {
 }
 
 .head_contact .right .phone {
-	background: url(../img/phone.png);
+	background: url(images/phone.png);
 	background-size: 40px auto; 
 	background-repeat: no-repeat; 
 	background-position: right top;
@@ -178,7 +176,7 @@ select {
 
 .head_contact .right  .calltome a {color: #000000;}
 .head_contact .right  .calltome {
-	background: url(../img/calltome.png);
+	background: url(images/calltome.png);
 	background-size: 28px auto; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -186,7 +184,7 @@ select {
 }
 
 .head_contact .right  .time {
-	background: url(../img/time.png);
+	background: url(images/time.png);
 	background-size: 35px auto; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -194,7 +192,7 @@ select {
 }
 
 .head_contact .right  .adr {
-	background: url(../img/adr.png);
+	background: url(images/adr.png);
 	background-size: auto 35px; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -326,7 +324,7 @@ select {
     background: #D9E5FF;
 	background-repeat: repeat-x;
 	background-size: auto 100%;
-	background-position: 50% 50%;
+	background-position: ;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -400,8 +398,8 @@ select {
 }
 
 .image {
-	cursor: url(../img/plus.png), pointer;
-	max-height: 100px;
+	cursor:url(images/plus.png), pointer;
+	max-height:100px;
 }
 
 .popup {
@@ -430,7 +428,7 @@ select {
 	max-height:94%;
 	max-width:94%;
 	margin:1% 0 0 0;
-	cursor: url(../img/minus.png), pointer;
+	cursor: url(images/minus.png), pointer;
 }
 
 
@@ -442,10 +440,12 @@ select {
 	display: inline-block;
 }
 
-@media screen and (max-width: 600px) {
-
-	.container {
-		margin: 0 auto;
-		width: 660px;
-	}
+.container {
+	margin: 0 auto;
 }
+
+/* @media (max-width: 660px) {
+	.container {
+		width: 320px;
+	}
+} */
