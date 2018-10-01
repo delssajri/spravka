@@ -455,10 +455,24 @@ select {
 	}
 
 	.right .time {
-		width: 315px;
+		width: 215px;
 	}
 
 	.time p {
 		font: normal 21px sans-serif;
+	}
+
+	.inblock #sname {
+		width: auto;
+
+		font-size: 14px;
+	}
+
+	.inblock #topslog {
+		width: auto;
+	}
+
+	.inblock__text {
+		text-align: justify;
 	}
 }
