@@ -441,3 +441,28 @@ select {
 .tf p {
 	display: inline-block;
 }
+
+@media screen and (max-width: 600px) {
+
+	.kurer, .prem, .left, .adr {
+		display:none ! important;
+	}
+
+	.right {
+		width:100% ! important;
+	}
+
+	.phone p, .calme a, .time p {
+		font:normal 21px sans-serif ! important;
+	}
+
+	#pozvonit_in {
+		width:300px ! important;
+	}
+
+	input[type=text], textarea, select {
+		width:90% ! important;
+	}
+
+
+}
