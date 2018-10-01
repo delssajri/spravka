@@ -444,25 +444,8 @@ select {
 
 @media screen and (max-width: 600px) {
 
-	.kurer, .prem, .left, .adr {
-		display:none ! important;
+	.container {
+		margin: 0 auto;
+		width: 660px;
 	}
-
-	.right {
-		width:100% ! important;
-	}
-
-	.phone p, .calme a, .time p {
-		font:normal 21px sans-serif ! important;
-	}
-
-	#pozvonit_in {
-		width:300px ! important;
-	}
-
-	input[type=text], textarea, select {
-		width:90% ! important;
-	}
-
-
 }
