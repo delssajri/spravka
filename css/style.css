@@ -167,7 +167,7 @@ select {
 }
 
 .head_contact .right .phone {
-	background: url(images/phone.png);
+	background: url(../img/phone.png);
 	background-size: 40px auto; 
 	background-repeat: no-repeat; 
 	background-position: right top;
@@ -176,7 +176,7 @@ select {
 
 .head_contact .right  .calltome a {color: #000000;}
 .head_contact .right  .calltome {
-	background: url(images/calltome.png);
+	background: url(../img/calltome.png);
 	background-size: 28px auto; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -232,7 +232,7 @@ select {
 }
 
 .main_form .inblock {
-	background: url(images/main_form.png);
+	background: url(../img/main_form.png);
 	background-size: auto 90%; 
 	background-repeat: no-repeat; 
 	background-position:  right 10px;
@@ -398,7 +398,7 @@ select {
 }
 
 .image {
-	cursor:url(images/plus.png), pointer;
+	cursor:url(../img/plus.png), pointer;
 	max-height:100px;
 }
 
@@ -428,7 +428,7 @@ select {
 	max-height:94%;
 	max-width:94%;
 	margin:1% 0 0 0;
-	cursor: url(images/minus.png), pointer;
+	cursor: url(../img/minus.png), pointer;
 }
 
 
