@@ -126,7 +126,7 @@ select {
 
 .head_contact .inblock {
 	height: 250px;
-	background: url(images/doctors.jpg);
+	background: url(../img/doctors.jpg);
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: center bottom;
@@ -184,7 +184,7 @@ select {
 }
 
 .head_contact .right  .time {
-	background: url(images/time.png);
+	background: url(../img/time.png);
 	background-size: 35px auto; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -192,7 +192,7 @@ select {
 }
 
 .head_contact .right  .adr {
-	background: url(images/adr.png);
+	background: url(../img/adr.png);
 	background-size: auto 35px; 
 	background-repeat: no-repeat; 
 	background-position:  right top;
@@ -445,7 +445,16 @@ select {
 }
 
 @media screen and (max-width: 660px) {
-	.head_contact .left {
+	.head_contact .left,
+	.right .adr {
 		display: none;
+	}
+
+	.right .time {
+		width: 315px;
+	}
+
+	.time p {
+		font: normal 21px sans-serif;
 	}
 }
